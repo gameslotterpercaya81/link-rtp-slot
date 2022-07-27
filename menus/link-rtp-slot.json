@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle link-rtp-slot",
+        "command": "link-rtp-slot:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "link-rtp-slot",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "link-rtp-slot:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
